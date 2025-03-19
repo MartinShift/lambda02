@@ -27,6 +27,11 @@
         </dependency>
         <!--Syndicate annotations-->
         <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.12.5</version>
+        </dependency>
+        <dependency>
             <groupId>net.sf.aws-syndicate</groupId>
             <artifactId>deployment-configuration-annotations</artifactId>
             <version>${syndicate.java.plugin.version}</version>
